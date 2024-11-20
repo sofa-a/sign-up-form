@@ -1,0 +1,14 @@
+body {
+    display: flex;
+}
+
+#image-container {
+    width: 300px;
+}
+
+img
+{
+    width: 500px;
+    object-fit: cover;
+}
+
