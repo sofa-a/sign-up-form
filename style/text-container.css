@@ -34,6 +34,16 @@ input {
     border: solid rgb(226, 221, 221) 1px;
 }
 
+input:focus {
+    box-shadow: 2px 1px 5px black;
+}
+
+.password-error {
+    display: none;
+    color: red;
+    font-size: 0.7rem;
+}
+
 button {
     margin: 3% 10% 0% 3%;
     padding: 0.5rem 3rem;
