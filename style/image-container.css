@@ -1,6 +1,12 @@
 body {
     display:flex;
     flex-direction: row;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: Norse-bold;
+    src: url(../fonts/Norse-Bold.otf);
 }
 
 #image-container {
@@ -10,20 +16,27 @@ body {
     position: relative;
 }
 
-img {
+.forest-image {
     width: 100rem;
     object-fit: cover;
 }
 
 
 .image-logo {
+    font-family: Norse-bold;
     width: 300rem;
-    font-size: 55px;
+    font-size: 85px;
     position: absolute;
     top: 25%;
-    padding-left: 15%;
+    padding: 3% 0% 3% 16%; 
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.odin-logo {
+    width: 5rem;
 }
 
 .image-credit {
