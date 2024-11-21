@@ -1,7 +1,7 @@
 body {
     display:flex;
     flex-direction: row;
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 @font-face {
@@ -40,6 +40,7 @@ body {
 }
 
 .image-credit {
+    font-size: 0.8rem;
     position: absolute;
     bottom: 1%;
     left: 30%;

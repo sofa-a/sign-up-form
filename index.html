@@ -30,36 +30,36 @@
             If you want cool things this is the perfect subscription for you.
             You won't look back, a customer can never be unimpressed with us.
         </p>
-        <div id="form-section">
-            <form action="https://httpbin.org/post" method="post">
-                <div class="first-name">
+        <form action="https://httpbin.org/post" method="post">
+            <div id="form-section">
+                <div class="first-name" class="input">
                     <label for="first-name">FIRST NAME</label>
-                    <input type="text" name="first-name" id="first-name" required>
+                    <input type="text" name="first-name" id="first-name">
                 </div>
-                <div class="last-name">
+                <div class="last-name" class="input">
                     <label for="last-name">LAST NAME</label>
-                    <input type="text" name="last-name" id="last-name" required>
+                    <input type="text" name="last-name" id="last-name">
                 </div>
-                <div class="email">
+                <div class="email" class="input">
                     <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email">
                 </div>
-                <div class="phone-number">
+                <div class="phone-number" class="input">
                     <label for="phone-number">PHONE NUMBER</label>
-                    <input type="number" name="phone-number" id="phone-number" required 
+                    <input type="text" name="phone-number" id="phone-number"  
                         pattern="^04\d{8}" title="Invalid phone number entered">
                 </div>
-                <div class="password">
+                <div class="password" class="input">
                     <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password" required>
+                    <input type="password" name="password" id="password">
                 </div>
-                <div class="confirm-password">
+                <div class="confirm-password" class="input">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm-password" id="confirm-password" required>
-                </div>
-                <button type="submit">Create Account</button>
-            </form>
-        </div>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                </div>    
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
         <p class="footer-info">Already have an account?
             <a href="">Log in</a>
         </p>
